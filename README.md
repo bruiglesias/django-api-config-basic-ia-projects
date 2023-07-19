@@ -49,7 +49,7 @@ services:
 │   │   ├── apps.py
 │   │   ├── __init__.py
 │   │   ├── intelligence
-│   │   │   └── __init__.py    # machine learning models
+│   │   │   └── __init__.py
 │   │   ├── management
 │   │   │   ├── commands
 │   │   │   │   ├── __init__.py
@@ -57,7 +57,9 @@ services:
 │   │   │   └── __init__.py
 │   │   ├── migrations
 │   │   │   └── __init__.py
-│   │   ├── models.py         # database models
+│   │   ├── models.py
+│   │   ├── serializers
+│   │   │   └── __init__.py
 │   │   ├── tests
 │   │   │   └── __init__.py
 │   │   └── views
@@ -72,6 +74,7 @@ services:
 ├── database.sql
 ├── docker-compose.yaml
 ├── Dockerfile
+├── README.md
 └── requirements.txt
 
 ```
