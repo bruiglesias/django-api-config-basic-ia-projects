@@ -3,7 +3,7 @@ A API REST with docker-compose, django, postgres, pgadmin, swagger and jwt token
 
 ## Docker Compose File:
 
-version: '3'
+```version: '3'
 
 services:
   app:
@@ -39,3 +39,4 @@ services:
       - "8080:80"
     depends_on:
       - db
+```
