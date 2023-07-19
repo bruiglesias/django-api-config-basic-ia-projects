@@ -40,3 +40,35 @@ services:
     depends_on:
       - db
 ```
+## Files 
+
+├── app
+│   ├── application
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── __init__.py
+│   │   ├── intelligence
+│   │   │   └── __init__.py
+│   │   ├── management
+│   │   │   ├── commands
+│   │   │   │   ├── __init__.py
+│   │   │   │   └── wait_for_db.py
+│   │   │   └── __init__.py
+│   │   ├── migrations
+│   │   │   └── __init__.py
+│   │   ├── models.py
+│   │   ├── tests
+│   │   │   └── __init__.py
+│   │   └── views
+│   │       └── __init__.py
+│   ├── core
+│   │   ├── asgi.py
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   └── manage.py
+├── database.sql
+├── docker-compose.yaml
+├── Dockerfile
+└── requirements.txt
