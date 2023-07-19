@@ -49,7 +49,25 @@ services:
 │   │   ├── apps.py
 │   │   ├── __init__.py
 │   │   ├── intelligence
-│   │   │   └── __init__.py
+│   │   │   ├── data
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── testing
+│   │   │   │   │   └── __init__.py
+│   │   │   │   ├── training
+│   │   │   │   │   └── __init__.py
+│   │   │   │   └── validation
+│   │   │   │       └── __init__.py
+│   │   │   ├── __init__.py
+│   │   │   ├── models                  # machine learning models
+│   │   │   │   ├── development
+│   │   │   │   │   └── __init__.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   └── production
+│   │   │   │       └── __init__.py
+│   │   │   ├── notebooks
+│   │   │   │   └── __init__.py
+│   │   │   └── scripts
+│   │   │       └── __init__.py
 │   │   ├── management
 │   │   │   ├── commands
 │   │   │   │   ├── __init__.py
@@ -57,7 +75,7 @@ services:
 │   │   │   └── __init__.py
 │   │   ├── migrations
 │   │   │   └── __init__.py
-│   │   ├── models.py
+│   │   ├── models.py                     # database models
 │   │   ├── serializers
 │   │   │   └── __init__.py
 │   │   ├── tests
