@@ -42,6 +42,7 @@ services:
 ```
 ## Files 
 
+```
 ├── app
 │   ├── application
 │   │   ├── admin.py
@@ -72,3 +73,5 @@ services:
 ├── docker-compose.yaml
 ├── Dockerfile
 └── requirements.txt
+
+```
