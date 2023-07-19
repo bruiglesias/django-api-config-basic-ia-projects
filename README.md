@@ -1,4 +1,4 @@
-# django-api-config-basic-ia-projects
+# A DJANGO API REST TO MACHINE LEARNING
 A API REST with docker-compose, django, postgres, pgadmin, swagger and jwt token
 
 ## Docker Compose File:
@@ -49,7 +49,7 @@ services:
 │   │   ├── apps.py
 │   │   ├── __init__.py
 │   │   ├── intelligence
-│   │   │   └── __init__.py
+│   │   │   └── __init__.py    # machine learning models
 │   │   ├── management
 │   │   │   ├── commands
 │   │   │   │   ├── __init__.py
@@ -57,7 +57,7 @@ services:
 │   │   │   └── __init__.py
 │   │   ├── migrations
 │   │   │   └── __init__.py
-│   │   ├── models.py
+│   │   ├── models.py         # database models
 │   │   ├── tests
 │   │   │   └── __init__.py
 │   │   └── views
